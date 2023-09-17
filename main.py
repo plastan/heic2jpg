@@ -17,7 +17,7 @@ for i in heic_files:
     try:
         TargetFile= f'{dest}/{i}'.replace("HEIC",'jpg')
         tfile = open (TargetFile,'wb')
-        image = Image.open(source+i)
+        image = Image.open(os.path.join(source,i))
         image.save(tfile)
         image.close()
     except Exception as e:
