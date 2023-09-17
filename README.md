@@ -11,10 +11,11 @@ If the source directory is not specified, the current working directory will be 
     Clone this repository to your local machine.
     Navigate to the project directory.
     Run the following command:
-`
-    pip install -r requirements.txt
-    python main.py source_dir destination_dir
-`
+```console
+pip install -r requirements.txt
+python main.py source_dir destination_dir
+```
+
 Replace `source_dir` and `destination_dir` with the directories containing the HEIC files and the destination directory for the converted JPG files, respectively.
 
 ## Example:
