@@ -22,7 +22,7 @@ Replace `source_dir` and `destination_dir` with the directories containing the H
 
 To convert all HEIC files in the current working directory to JPG files and save the converted files in a result folder, run the following command:
 
-`python main.py`
+`$ python main.py`
 
 
 
